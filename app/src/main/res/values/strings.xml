@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MessageToWatch</string>
+    <string name="help">Помощь</string>
+    <string name="settings">Настройки</string>
+</resources>
