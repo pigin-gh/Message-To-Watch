@@ -40,7 +40,7 @@
                 android:textSize="16sp" />
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/textField"
+                android:id="@+id/textFieldLayout"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -50,6 +50,7 @@
                 app:errorEnabled="true">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textField"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textMultiLine"
@@ -62,7 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_below="@id/textField"
+                android:layout_below="@id/textFieldLayout"
                 android:gravity="end|center_horizontal">
 
                 <com.google.android.material.button.MaterialButton
