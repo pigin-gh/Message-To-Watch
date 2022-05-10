@@ -53,27 +53,27 @@
                     android:id="@+id/textField"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="top|start"
                     android:inputType="textMultiLine"
                     android:lines="5"
-                    android:scrollbars="vertical"
-                    android:gravity="top|start"/>
+                    android:scrollbars="vertical" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_below="@id/textFieldLayout"
-                android:gravity="end|center_horizontal">
+                android:gravity="end|center_horizontal"
+                android:orientation="horizontal">
 
                 <com.google.android.material.button.MaterialButton
+                    android:id="@+id/sendButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/sendButton"
-                    android:text="@string/send"
                     android:paddingHorizontal="24dp"
+                    android:text="@string/send"
                     app:icon="@drawable/ic_send_wh"
-                    app:iconSize="18dp"/>
+                    app:iconSize="18dp" />
             </LinearLayout>
         </RelativeLayout>
 
