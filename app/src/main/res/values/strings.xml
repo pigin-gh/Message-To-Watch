@@ -5,4 +5,9 @@
     <string name="main_page_title">Главная</string>
     <string name="message_header">Сообщение:</string>
     <string name="send">Отправить</string>
+    <string name="length_error">Длина выше допустимой</string>
+    <string name="error">Ошибка</string>
+    <string name="channel_description">Main channel for notifications</string>
+    <string name="channel_name">MainChannel</string>
+    <string name="notification_title">Текст</string>
 </resources>

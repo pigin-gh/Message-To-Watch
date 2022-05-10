@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "456172625989",
+    "project_id": "message-to-watch",
+    "storage_bucket": "message-to-watch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456172625989:android:e68f76bd39a64c59ef032c",
+        "android_client_info": {
+          "package_name": "com.bebrist.messagetowatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456172625989-94jahc9eilmlphgvr2m3r7g22pdt06ci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALcZ7BCWCh0U_KKk6lq_anD_QbrD2wXk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456172625989-94jahc9eilmlphgvr2m3r7g22pdt06ci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
